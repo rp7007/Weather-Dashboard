@@ -4,7 +4,7 @@
     width: 607px;
     height: 829px;
     margin: auto;
-    margin-top: 75px;
+    margin-top: 20px;
     border-radius: 12px;
     background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
 }
@@ -13,13 +13,13 @@
     display: flex;
     justify-content: center;
     gap: 14px;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 
 .top-bar input{
     display: flex;
     width: 362px;
-    height: 78px;
+    height: 60px;
     background: #ebfffc;
     border: none;
     outline: none;
@@ -34,8 +34,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 78px;
-    height: 78px;
+    width: 65px;
+    height: 65px;
     background: #ebfffc;
     border-radius: 40px;
     cursor: pointer;
@@ -44,7 +44,7 @@
 .weather-summary {
     width: 220px;
     height: 15px;
-    background-color: #d8c4c4;
+    background-color: #f4eded;
     border: 2px solid #ccc;
     border-radius: 15px;
     padding: 15px;
@@ -53,10 +53,12 @@
     margin-right: auto;
     align-items: center;
     font-size: 18px;
+    display: flex; 
+    justify-content: center;
 }
 
 .weather-image{
-    margin-top: 29px;
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
@@ -65,7 +67,7 @@
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 120px;
+    font-size: 110px;
     font-weight: 400;
 }
 
