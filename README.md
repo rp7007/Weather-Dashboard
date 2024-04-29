@@ -16,7 +16,6 @@ https://rp-weather-dashboard.netlify.app/
 - React: JavaScript library for building user interfaces.
 - OpenWeatherMap API: Used to fetch weather data based on city name.
 - CSS: Styling for the application.
-- Other dependencies (if any).
 
 ## Getting Started
 
@@ -35,9 +34,10 @@ To get a local copy of the project up and running, follow these steps:
 
 4. Create a .env file in the root directory and add your OpenWeatherMap API key:
    REACT_APP_API_KEY=your_api_key_here
+   
    Replace your_api_key_here with your actual API key.
 
-5. Start the development server:
+6. Start the development server:
    npm start
 
-6. Open your browser and visit http://localhost:3000 to view the app.
+7. Open your browser and visit http://localhost:3000 to view the app.
